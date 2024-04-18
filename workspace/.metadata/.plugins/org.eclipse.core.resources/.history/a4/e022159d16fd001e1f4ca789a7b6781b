@@ -1,0 +1,6 @@
+package co.edu.uco.tiendachepito.dto;
+
+public final class PaisDTO {
+	private int id;
+	private String nombre;
+}
