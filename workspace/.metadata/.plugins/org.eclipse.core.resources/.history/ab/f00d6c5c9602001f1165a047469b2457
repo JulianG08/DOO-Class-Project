@@ -1,0 +1,6 @@
+package co.edu.uco.tiendachepito.data.dao.sql;
+
+public class SqlConnection {
+	
+	private Connection
+}

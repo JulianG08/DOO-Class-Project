@@ -1,0 +1,5 @@
+package co.edu.uco.tiendachepito.data.dao.factory;
+
+public class DAOFactory {
+
+}
