@@ -4568,6 +4568,7 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !MESSAGE Started Boot LS process
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 !ENTRY org.eclipse.jdt.core 4 4 2024-04-24 17:19:00.225
 !MESSAGE JavaBuilder handling CoreException while building: TiendaChepito
@@ -10179,6 +10180,8 @@ java.lang.IllegalArgumentException: release 21 is not found in the system
 	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+=======
+>>>>>>> parent of 0be630d (Generación de DAOs)
 =======
 >>>>>>> parent of 0be630d (Generación de DAOs)
 =======
