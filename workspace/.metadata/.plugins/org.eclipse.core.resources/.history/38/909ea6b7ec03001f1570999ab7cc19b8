@@ -1,0 +1,18 @@
+package co.edu.uco.tiendachepito.entity;
+
+public final class CiudadEntity {
+	
+	private int id;
+	private String nombre;
+	private DepartamentoEntity departamento;
+	
+	public final int getId() {
+		return id;
+	}
+	public final String getNombre() {
+		return nombre;
+	}
+	public final DepartamentoEntity getDepartamento() {
+		return departamento;
+	}
+}
