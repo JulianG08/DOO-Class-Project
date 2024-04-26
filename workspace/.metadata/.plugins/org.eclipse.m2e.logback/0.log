@@ -1494,3 +1494,7 @@ java.lang.reflect.InaccessibleObjectException: Unable to make public void sun.ni
 2024-04-24 19:56:37,849 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-04-24 19:56:37,854 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-04-24 19:56:37,862 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\julia\Documents\GitHub\DOO-Class-Project\workspace\TiendaChepito\src\test\resources
+2024-04-26 10:20:21,909 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-04-26 11:00:19,743 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-26 11:00:20,013 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-26 11:00:20,029 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\julia\Documents\GitHub\DOO-Class-Project\workspace\TiendaChepito\src\test\resources
