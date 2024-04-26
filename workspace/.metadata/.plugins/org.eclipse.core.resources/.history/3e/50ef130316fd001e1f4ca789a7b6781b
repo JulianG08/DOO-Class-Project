@@ -1,6 +1,0 @@
-package co.edu.uco.tiendachepito.dto;
-
-public class DepartamentoDTO {
-	private int id;
-	private String nombre;
-}

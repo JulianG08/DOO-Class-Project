@@ -1,0 +1,9 @@
+
+¼
+java:S11867"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.8°§Â’ñ1b 877f3b85d2ba9c732d196b38abcb55d0h
+n
+java:S11727"3Remove this unused method parameter "departamento".8°§Â’ñ1b f7b391b19acafeb16ba6f1e4676a617eh
+i
+java:S1144/".Remove this unused private "getNombre" method.8´žÖ’ñ1b b4fb43d68a01bf1840420698d6daaf83h
+o
+java:S11443"4Remove this unused private "getDepartamento" method.8´žÖ’ñ1b 13d27aa2bf281171e4b111e97c6a83fbh

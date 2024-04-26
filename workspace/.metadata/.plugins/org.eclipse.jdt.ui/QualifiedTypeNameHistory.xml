@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.crosscutting.helpers.TextHelper"/>
     <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.crosscutting.helpers.ObjectHelper"/>
     <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.dto.PaisDTO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.crosscutting.helpers.TextHelper"/>
+    <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.crosscutting.helpers.NumericHelper"/>
+    <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.data.dao.PaisDAO"/>
 </qualifiedTypeNameHistroy>
