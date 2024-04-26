@@ -1,8 +1,0 @@
-package co.edu.uco.tiendachepito.entity;
-
-public final class DepartamentoEntity {
-	
-	private int id;
-	private String nombre;
-	private PaisEntity pais;
-}
