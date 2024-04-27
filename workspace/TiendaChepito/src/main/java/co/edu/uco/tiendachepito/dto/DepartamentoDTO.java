@@ -45,7 +45,8 @@ public final class DepartamentoDTO {
 		return pais;
 	}
 
-	public final void setPais(final PaisDTO pais) {
+	public final DepartamentoDTO setPais(final PaisDTO pais) {
 		this.pais = ObjectHelper.getObjectHelper().getDefault(pais, PaisDTO.build());
+		return this;
 	}
 }

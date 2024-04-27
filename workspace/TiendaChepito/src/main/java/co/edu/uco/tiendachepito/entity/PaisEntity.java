@@ -1,5 +1,6 @@
 package co.edu.uco.tiendachepito.entity;
 
+import static co.edu.uco.tiendachepito.crosscutting.helpers.NumericHelper.ZERO;
 import co.edu.uco.tiendachepito.crosscutting.helpers.TextHelper;
 
 public final class PaisEntity {
@@ -18,6 +19,10 @@ public final class PaisEntity {
 	
 	public static final PaisEntity build(final int id) {
 		return new PaisEntity(id);
+	}
+	
+	protected static final PaisEntity build() {
+		return new PaisEntity(ZERO);
 	}
 	
 	public static final PaisEntity build(final int id, final String nombre) {

@@ -1,0 +1,59 @@
+package co.edu.uco.tiendachepito.entity;
+
+import co.edu.uco.tiendachepito.crosscutting.helpers.TextHelper;
+import co.edu.uco.tiendachepito.dto.PaisDTO;
+
+public final class DepartamentoEntity {
+	
+	private int id;
+	private String nombre;
+	private PaisDTO pais;
+	
+	private DepartamentoEntity(final int id) {
+		setId(id);
+		setNombre(TextHelper.EMPTY);
+		setPais(PaisEntity.build());
+	}
+	
+	private DepartamentoEntity(final int id, final String nombre, final PaisDTO pais) {
+		setId(id);
+		setNombre(nombre);
+		setPais(pais);
+	}
+	
+	public static final DepartamentoEntity build()final int id) {
+		return new DepartamentoEntity(id);
+	}
+	
+	public static final DepartamentoEntity build(final int id, final String nombre, final PaisDTO pais) {
+		return new DepartamentoEntity(id, nombre, pais);
+	}
+	
+	public static final DepartamentoEntity build() {
+		return new DepartamentoEntity(id);
+	}
+
+	private final void setId(final int id) {
+		this.id = id;
+	}
+
+	private final void setNombre(final String nombre) {
+		setNombre(TextHelper.EMPTY);
+	}
+
+	private final void setPais(final PaisDTO pais) {
+		this.pais = ObjectHelper.getObjectHelper().getDefault(pais, PaisEntity.build());
+	}
+
+	public final int getId() {
+		return id;
+	}
+	
+	public final String getNombre() {
+		return nombre;
+	}
+	
+	public final PaisDTO getPais() {
+		return pais;
+	}
+}
