@@ -1,28 +1,40 @@
 package co.edu.uco.tiendachepito.data.dao.sql.azuresql;
 
+import java.sql.Connection;
 import java.util.List;
 
 import co.edu.uco.tiendachepito.data.dao.DepartamentoDAO;
-import co.edu.uco.tiendachepito.entity.DepartamentoDAO;
+import co.edu.uco.tiendachepito.data.dao.sql.SqlConnection;
+import co.edu.uco.tiendachepito.entity.DepartamentoEntity;
 
-public final class DepartamentoAzureSqlDAO implements DepartamentoDAO {
-	@Override
-	public void crear(DepartamentoEntity entidad) {
-		//TODO Auto-generated method stub
+public final class DepartamentoAzureSqlDAO extends SqlConnection implements DepartamentoDAO {
+	
+	public DepartamentoAzureSqlDAO(final Connection connection) {
+		super(connection);
 	}
-	
+
 	@Override
-	public void actualizar(DepartamentoEntity entiidad)
-		//TODO Auto-generated method stub
-	
-	@Override
-	public void eliminar(int id) {
-		//TODO Auto-generated method stub
+	public final void crear(final DepartamentoEntity entidad) {
+		// TODO Auto-generated method stub
+		
 	}
-	
+
 	@Override
-	public final List<DepartamentoEntity> consultar(final CiudadEntity entidad) {
-		//TODO Auto-generated method stub
+	public final void actualizar(final DepartamentoEntity entidad) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public final void eliminar(final int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public final List<DepartamentoEntity> consultar(final DepartamentoEntity entidad) {
+		// TODO Auto-generated method stub
 		return null;
 	}
+
 }

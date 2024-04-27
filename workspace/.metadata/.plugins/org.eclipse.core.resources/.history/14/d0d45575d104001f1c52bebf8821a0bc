@@ -1,0 +1,34 @@
+package co.edu.uco.tiendachepito.data.dao.sql.azuresql;
+
+import java.util.List;
+
+import co.edu.uco.tiendachepito.data.dao.PaisDAO;
+import co.edu.uco.tiendachepito.entity.PaisEntity;
+
+public final class PaisAzureSqlDAO implements PaisDAO{
+
+	@Override
+	public void crear(PaisEntity entidad) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void actualizar(PaisEntity entidad) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void eliminar(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<PaisEntity> consultar(PaisEntity entidad) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,18 +1,27 @@
 package co.edu.uco.tiendachepito.data.dao.factory.sql.azuresql;
-import co.edu.uco.tiendachepito.data.dao.*;
-import co.edu.uco.tiendachepito.data.dao.factory.*;
+
+import java.sql.Connection;
+
+import co.edu.uco.tiendachepito.data.dao.CiudadDAO;
+import co.edu.uco.tiendachepito.data.dao.DepartamentoDAO;
+import co.edu.uco.tiendachepito.data.dao.PaisDAO;
+import co.edu.uco.tiendachepito.data.dao.factory.DAOFactory;
+import co.edu.uco.tiendachepito.data.dao.sql.azuresql.CiudadAzureSqlDAO;
+import co.edu.uco.tiendachepito.data.dao.sql.azuresql.DepartamentoAzureSqlDAO;
+import co.edu.uco.tiendachepito.data.dao.sql.azuresql.PaisAzureSqlDAO;
 
 public final class AzureSqlDAOFactory extends DAOFactory {
+	
 	private Connection connection;
 	
-	public AzureSqlDAOFactory() {
+	public AzureSqlDAOFactory () {
 		obtenerConexion();
 	}
-	
+
 	@Override
-	protected void obtenerConexcion() {
+	protected void obtenerConexion() {
 		// TODO Auto-generated method stub
-		
+		connection = null;
 	}
 
 	@Override
@@ -51,6 +60,6 @@ public final class AzureSqlDAOFactory extends DAOFactory {
 
 	@Override
 	public CiudadDAO getCiudadDAO() {
-		return CiudadAzureSqlDAO(connection);
+		return new CiudadAzureSqlDAO(connection);
 	}
 }

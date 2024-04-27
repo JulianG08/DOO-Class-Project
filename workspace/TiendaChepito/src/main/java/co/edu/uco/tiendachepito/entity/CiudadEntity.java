@@ -1,5 +1,7 @@
 package co.edu.uco.tiendachepito.entity;
 
+import static co.edu.uco.tiendachepito.crosscutting.helpers.NumericHelper.ZERO;
+import co.edu.uco.tiendachepito.crosscutting.helpers.ObjectHelper;
 import co.edu.uco.tiendachepito.crosscutting.helpers.TextHelper;
 
 public final class CiudadEntity {
@@ -28,7 +30,11 @@ public final class CiudadEntity {
 		return new CiudadEntity(id, nombre, departamento);
 	}
 	
-	public final void setId(final int id) {
+	protected static final CiudadEntity build() {
+		return new CiudadEntity(ZERO);
+	}
+	
+	private final void setId(final int id) {
 		this.id = id;
 	}
 	
@@ -36,23 +42,19 @@ public final class CiudadEntity {
 		this.nombre = TextHelper.applyTrim(nombre);
 	}
 	
-	protected static final CiduadEntity build() {
-		return new CiudadEntity(ZERO);
+	private final void setDepartamento(final DepartamentoEntity departamento) {
+		this.departamento = ObjectHelper.getObjectHelper().getDefault(departamento, DepartamentoEntity.build());
 	}
 	
 	public final int getId() {
 		return id;
 	}
-
-	private String getNombre() {
+	
+	public final String getNombre() {
 		return nombre;
 	}
-
-	private DepartamentoEntity getDepartamento() {
+	
+	public final DepartamentoEntity getDepartamento() {
 		return departamento;
-	}
-
-	private final void setDepartamento(final DepartamentoEntity departamento) {
-		
 	}
 }

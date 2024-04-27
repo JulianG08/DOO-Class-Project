@@ -1,6 +1,7 @@
 package co.edu.uco.tiendachepito.entity;
 
-import co.edu.uco.tiendachepito.crosscutting.helpers.NumericHelper;
+import static co.edu.uco.tiendachepito.crosscutting.helpers.NumericHelper.ZERO;
+import co.edu.uco.tiendachepito.crosscutting.helpers.ObjectHelper;
 import co.edu.uco.tiendachepito.crosscutting.helpers.TextHelper;
 
 public final class DepartamentoEntity {
@@ -15,7 +16,7 @@ public final class DepartamentoEntity {
 		setPais(PaisEntity.build());
 	}
 	
-	private DepartamentoEntity(int id, String nombre, PaisEntity pais) {
+	private DepartamentoEntity(final int id, final String nombre, final PaisEntity pais) {
 		setId(id);
 		setNombre(nombre);
 		setPais(pais);
@@ -26,38 +27,34 @@ public final class DepartamentoEntity {
 	}
 	
 	public static final DepartamentoEntity build(final int id, final String nombre, final PaisEntity pais) {
-		
+		return new DepartamentoEntity(id, nombre, pais);
 	}
 	
-	protected static final DepartamentoEntity uild() {
-		return new DepartamentoEntity(NumericHelper.ZERO);
+	protected static final DepartamentoEntity build() {
+		return new DepartamentoEntity(ZERO);
 	}
 
 	private final void setId(final int id) {
-		setId(id);
+		this.id = id;
 	}
-	
+
 	private final void setNombre(final String nombre) {
-		setNombre(TextHelper.EMPTY)
+		this.nombre = TextHelper.applyTrim(nombre);
 	}
-	
+
 	private final void setPais(final PaisEntity pais) {
-		
+		this.pais = ObjectHelper.getObjectHelper().getDefault(pais, PaisEntity.build());
 	}
-	
-	private void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
-	private void setPais(PaisEntity pais) {
-		this.pais = pais;
-	}
-	private int getId() {
+
+	public final int getId() {
 		return id;
 	}
-	private String getNombre() {
+	
+	public final String getNombre() {
 		return nombre;
 	}
-	private PaisEntity getPais() {
+	
+	public final PaisDTO getPais() {
 		return pais;
 	}
 }

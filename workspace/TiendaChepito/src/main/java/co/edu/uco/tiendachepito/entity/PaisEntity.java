@@ -1,29 +1,47 @@
 package co.edu.uco.tiendachepito.entity;
 
-public final class PaisEntity {
+import static co.edu.uco.tiendachepito.crosscutting.helpers.NumericHelper.ZERO;
+import co.edu.uco.tiendachepito.crosscutting.helpers.TextHelper;
 
+public final class PaisEntity {
+	
 	private int id;
 	private String nombre;
 	
 	private PaisEntity(final int id) {
-		setNomre(TextHelper.EMPTY);
+		setNombre(TextHelper.EMPTY);
 	}
 	
-	private PiasEntity
-
-	private int getId() {
-		return id;
+	private PaisEntity(final int id, final String nombre) {
+		setId(id);
+		setNombre(nombre);
 	}
-
-	private String getNombre() {
-		return nombre;
+	
+	public static final PaisEntity build(final int id) {
+		return new PaisEntity(id);
 	}
-
-	private void setId(int id) {
+	
+	protected static final PaisEntity build() {
+		return new PaisEntity(ZERO);
+	}
+	
+	public static final PaisEntity build(final int id, final String nombre) {
+		return new PaisEntity(id, nombre);
+	}
+	
+	private final void setId(final int id) {
 		this.id = id;
 	}
-
-	private void setNombre(String nombre) {
-		this.nombre = nombre;
+	
+	private final void setNombre(final String nombre) {
+		this.nombre = TextHelper.applyTrim(nombre);
+	}
+	
+	public final int getId() {
+		return id;
+	}
+	
+	public final String getNombre() {
+		return nombre;
 	}
 }

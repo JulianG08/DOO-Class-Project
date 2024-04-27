@@ -1,5 +1,0 @@
-package co.edu.uco.tiendachepito.data.dao;
-
-public interface PaisDAO extends CrearDAO<PaisEntity>, ActualizarDAO<PaisEntity>, EliminarDAO, ConsultarDAO<PaisEntity> {
-
-}
