@@ -1,13 +1,3 @@
 
 d
-java:S1172")Remove this unused method parameter "id".8Ù¶Ý’ñ1b b80bb7740288fda1f201890375a60c8fh
-o
-java:S1144"4Remove this unused private "PaisEntity" constructor.8Ù¶Ý’ñ1b c10c93ce3486e5c9232b11843e246de5h
-e
-java:S1144"*Remove this unused private "getId" method.8Ù¶Ý’ñ1b 7db1b67f9311bee084851e988f91c89dh
-e
-java:S1144"*Remove this unused private "setId" method.8Ù¶Ý’ñ1b 0a8d0673bf66104005f2022f591e0538h
-i
-java:S1144".Remove this unused private "getNombre" method.8Ù¶Ý’ñ1b b4fb43d68a01bf1840420698d6daaf83h
-i
-java:S1144".Remove this unused private "setNombre" method.8Ù¶Ý’ñ1b 8aa1e5c1cbb486e17d9087d9eaabaafdh
+java:S1172")Remove this unused method parameter "id".8¼È”Ûñ1b b80bb7740288fda1f201890375a60c8fh

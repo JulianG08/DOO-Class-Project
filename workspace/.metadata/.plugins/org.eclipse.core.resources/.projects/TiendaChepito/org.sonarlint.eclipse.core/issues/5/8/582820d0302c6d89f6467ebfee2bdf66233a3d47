@@ -1,3 +1,5 @@
 
-v
-java:S2094"BRemove this empty class, write its code or make it an "interface".b 3e3aaf9a1241b55ce0a1990bbb9c0633h
+m
+java:S1144"2Remove this unused private "setConnection" method.8œîó‰ò1b a46435b40c42dfe84c52711b33e441cfh
+m
+java:S1135"2Complete the task associated to this TODO comment.8«ðö‰ò1b 2622816972ca8686ab59c4a548cb3867h

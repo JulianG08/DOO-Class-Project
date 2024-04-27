@@ -1,0 +1,7 @@
+package co.edu.uco.tiendachepito.data.dao.factory.sql.azuresql;
+
+import co.edu.uco.tiendachepito.data.dao.factory.DAOFactory;
+
+public final class AzureSqlDAOFactory extends DAOFactory {
+	
+}

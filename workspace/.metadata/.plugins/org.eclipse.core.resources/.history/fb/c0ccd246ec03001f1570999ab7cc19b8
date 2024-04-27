@@ -1,0 +1,9 @@
+package co.edu.uco.tiendachepito.entity;
+
+import co.edu.uco.tiendachepito.dto.DepartamentoDTO;
+
+public final class CiudadEntity {
+	private int id;
+	private String nombre;
+	private DepartamentoDTO departamento;
+}

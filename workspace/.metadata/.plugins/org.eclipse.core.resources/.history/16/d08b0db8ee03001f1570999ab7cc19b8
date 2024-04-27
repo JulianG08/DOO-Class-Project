@@ -1,0 +1,20 @@
+package co.edu.uco.tiendachepito.entity;
+
+public final class PaisEntity {
+	
+	private int id;
+	private String nombre;
+	
+	private final void setId(final int id) {
+		this.id = id;
+	}
+	private final void setNombre(final String nombre) {
+		this.nombre = nombre;
+	}
+	public final int getId() {
+		return id;
+	}
+	public final String getNombre() {
+		return nombre;
+	}
+}

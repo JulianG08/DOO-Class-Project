@@ -1,0 +1,7 @@
+package co.edu.uco.tiendachepito.entity;
+
+public final class CiudadEntity {
+	private int id;
+	private String nombre;
+	private DepartamentoEntity departamento;
+}

@@ -7,11 +7,20 @@ public final class CiudadDTO {
 	private int id;
 	private String nombre;
 	private DepartamentoDTO departamento;
+	
+	public CiudadDTO() {
+		setNombre(TextHelper.EMPTY);
+		setDepartamento(DepartamentoDTO.build());
+	}
 
 	public CiudadDTO(final int id, final String nombre, final DepartamentoDTO departamento) {
 		setId(id);
 		setNombre(nombre);
 		setDepartamento(departamento);
+	}
+	
+	public static final CiudadDTO build() {
+		return new CiudadDTO();
 	}
 
 	public final int getId() {
@@ -36,7 +45,8 @@ public final class CiudadDTO {
 		return departamento;
 	}
 
-	public final void setDepartamento(final DepartamentoDTO departamento) {
+	public final CiudadDTO setDepartamento(final DepartamentoDTO departamento) {
 		this.departamento = ObjectHelper.getObjectHelper().getDefault(departamento, DepartamentoDTO.build());
+		return this;
 	}
 }
