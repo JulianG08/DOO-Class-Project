@@ -51,3 +51,9 @@ v
 Fsrc/main/java/co/edu/uco/tiendachepito/data/dao/sql/SqlConnection.java,5\8\582820d0302c6d89f6467ebfee2bdf66233a3d47
 t
 Dsrc/main/java/co/edu/uco/tiendachepito/data/dao/DepartamentoDAO.java,a\c\acb408dc2edd4cb97f62114008913bcca57e29ee
+Š
+Zsrc/main/java/co/edu/uco/tiendachepito/crosscutting/exceptions/TiendaChepitoException.java,6\5\65196af777dabc381d5c9bc90c5df83f6349c7b8
+
+Osrc/main/java/co/edu/uco/tiendachepito/crosscutting/exceptions/enums/Lugar.java,a\4\a4e719aa1815f3f7f72554ee6b5c13319fcb950a
+•
+esrc/main/java/co/edu/uco/tiendachepito/crosscutting/exceptions/custom/DataTiendaChepitoException.java,8\7\87cd54b9fa8e5b562904852f2b2fccaec722af96

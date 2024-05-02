@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.crosscutting.helpers.TextHelper"/>
     <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.crosscutting.helpers.NumericHelper"/>
-    <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.crosscutting.helpers.ObjectHelper"/>
     <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.dto.PaisDTO"/>
     <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.data.dao.general.CrearDAO"/>
     <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.data.dao.general.ActualizarDAO"/>
@@ -19,4 +17,7 @@
     <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.data.dao.sql.SqlConnection"/>
     <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.data.dao.sql.azuresql.DepartamentoAzureSqlDAO"/>
     <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.data.dao.sql.azuresql.CiudadAzureSqlDAO"/>
+    <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.crosscutting.helpers.TextHelper"/>
+    <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.crosscutting.helpers.ObjectHelper"/>
+    <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.crosscutting.exceptions.enums.Lugar"/>
 </qualifiedTypeNameHistroy>
