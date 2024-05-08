@@ -11,8 +11,11 @@ public enum CodigoMensaje {
 	M00004(TipoMensaje.TECNICO, CategoriaMensaje.ERROR, "00004", true),
 	M00005(TipoMensaje.TECNICO, CategoriaMensaje.ERROR, "00005", true),
 	M00006(TipoMensaje.TECNICO, CategoriaMensaje.ERROR, "00006", true),
-	M00007(TipoMensaje.USUARIO, CategoriaMensaje.EXITO, "00007", false),
-	M00008(TipoMensaje.USUARIO, CategoriaMensaje.EXITO, "00008", true);
+	M00007(TipoMensaje.TECNICO, CategoriaMensaje.EXITO, "00007", false),
+	M00008(TipoMensaje.TECNICO, CategoriaMensaje.EXITO, "00008", true),
+	M00009(TipoMensaje.TECNICO, CategoriaMensaje.EXITO, "00009", true),
+	M00010(TipoMensaje.TECNICO, CategoriaMensaje.EXITO, "00010", true),
+	M00011(TipoMensaje.TECNICO, CategoriaMensaje.EXITO, "00011", true),
 
 	private TipoMensaje tipo;
 	private CategoriaMensaje categoria;
