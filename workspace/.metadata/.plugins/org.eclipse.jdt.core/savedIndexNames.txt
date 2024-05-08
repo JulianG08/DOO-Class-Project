@@ -4,8 +4,8 @@ INDEX VERSION 1.134+C:\Users\julia\Documents\GitHub\DOO-Class-Project\workspace\
 224323855.index
 173374819.index
 3105147322.index
-1197368480.index
 1601225141.index
+1197368480.index
 3354106137.index
 256374848.index
 2979081592.index
@@ -63,6 +63,5 @@ INDEX VERSION 1.134+C:\Users\julia\Documents\GitHub\DOO-Class-Project\workspace\
 2763524813.index
 3691308062.index
 1543362132.index
-4094830605.index
 1560437359.index
 1522571153.index

@@ -1,7 +1,0 @@
-package co.edu.uco.tiendachepito.data.dao.sql.azuresql;
-
-import co.edu.uco.tiendachepito.data.dao.DepartamentoDAO;
-
-public final class DepartamentoAzureSqlDAO implements DepartamentoDAO{
-
-}
