@@ -7,11 +7,9 @@
     <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.data.dao.general.ActualizarDAO"/>
     <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.data.dao.general.EliminarDAO"/>
     <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.data.dao.general.ConsultarDAO"/>
-    <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.entity.PaisEntity"/>
     <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.data.dao.PaisDAO"/>
     <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.data.dao.DepartamentoDAO"/>
     <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.data.dao.CiudadDAO"/>
-    <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.data.dao.factory.DAOFactory"/>
     <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.data.dao.sql.azuresql.PaisAzureSqlDAO"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.data.dao.sql.SqlConnection"/>
@@ -20,4 +18,10 @@
     <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.crosscutting.helpers.TextHelper"/>
     <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.crosscutting.helpers.ObjectHelper"/>
     <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.crosscutting.exceptions.enums.Lugar"/>
+    <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.crosscutting.helpers.SQLHelper"/>
+    <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.data.dao.factory.sql.azuresql.AzureSqlDAOFactory"/>
+    <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.crosscutting.exceptions.custom.DataTiendaChepitoException"/>
+    <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.entity.PaisEntity"/>
+    <fullyQualifiedTypeName name="ch.qos.logback.core.util.COWArrayList"/>
+    <fullyQualifiedTypeName name="co.edu.uco.tiendachepito.data.dao.factory.DAOFactory"/>
 </qualifiedTypeNameHistroy>

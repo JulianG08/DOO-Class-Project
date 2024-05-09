@@ -57,3 +57,7 @@ Zsrc/main/java/co/edu/uco/tiendachepito/crosscutting/exceptions/TiendaChepitoExc
 Osrc/main/java/co/edu/uco/tiendachepito/crosscutting/exceptions/enums/Lugar.java,a\4\a4e719aa1815f3f7f72554ee6b5c13319fcb950a
 •
 esrc/main/java/co/edu/uco/tiendachepito/crosscutting/exceptions/custom/DataTiendaChepitoException.java,8\7\87cd54b9fa8e5b562904852f2b2fccaec722af96
+z
+Jsrc/main/java/co/edu/uco/tiendachepito/data/dao/factory/enums/Factory.java,d\5\d507fdf93b18b0b9f531b689a5ba8d465f1229a5
+z
+Jsrc/main/java/co/edu/uco/tiendachepito/crosscutting/helpers/SQLHelper.java,3\a\3a8c7d4c22322b882fa72a4424d8d14ae327758a

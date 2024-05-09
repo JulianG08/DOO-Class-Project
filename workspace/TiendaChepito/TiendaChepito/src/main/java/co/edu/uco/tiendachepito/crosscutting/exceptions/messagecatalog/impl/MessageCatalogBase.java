@@ -34,6 +34,35 @@ public final class MessageCatalogBase implements MessageCatalog {
 				"Se ha presentado un problema INESPERADO tratando de validar si la conexión SQL con la fuente de información deseada estaba cerrada..."));
 		mensajes.put(CodigoMensaje.M00009.getIdentificador(), new Mensaje(CodigoMensaje.M00009,
 				"Se ha intentado reazlizar el cierre de una conexión SQL que ya estaba cerrada..."));
+		mensajes.put(CodigoMensaje.M00010.getIdentificador(), new Mensaje(CodigoMensaje.M00010,
+				"Se ha presentado un problema tratando de cerrar conexión SQL que ya estaba cerrada..."));
+		mensajes.put(CodigoMensaje.M00011.getIdentificador(), new Mensaje(CodigoMensaje.M00011,
+				"Se ha intentado reazlizar el cierre de una conexión SQL que ya estaba cerrada..."));
+		mensajes.put(CodigoMensaje.M00012.getIdentificador(), new Mensaje(CodigoMensaje.M00012,
+				"Se ha intentado confirmar una transacción con una conexión SQL cerrada..."));
+		mensajes.put(CodigoMensaje.M00013.getIdentificador(), new Mensaje(CodigoMensaje.M00013,
+				"Se ha intentado confirmar una transacción cuando el autocommit de la conexión con la base de datos estaba activado..."));
+		mensajes.put(CodigoMensaje.M00014.getIdentificador(), new Mensaje(CodigoMensaje.M00014,
+				"Se ha presentado un problema tratando de confirmar una transacción SQL con la fuente de datos deseada..."));
+		mensajes.put(CodigoMensaje.M00015.getIdentificador(), new Mensaje(CodigoMensaje.M00015,
+				"Se ha presentado un problema INESPERADO tratando de confirmar una transacción SQL con la fuente de datos deseada..."));
+		mensajes.put(CodigoMensaje.M00016.getIdentificador(), new Mensaje(CodigoMensaje.M00016,
+				"Se ha intentado cancelar una transacción con una conexión SQL cerrada..."));
+		mensajes.put(CodigoMensaje.M00017.getIdentificador(), new Mensaje(CodigoMensaje.M00017,
+				"Se ha intentado ..."));
+		mensajes.put(CodigoMensaje.M00018.getIdentificador(), new Mensaje(CodigoMensaje.M00018,
+				"..."));
+		mensajes.put(CodigoMensaje.M00019.getIdentificador(), new Mensaje(CodigoMensaje.M00019,
+				"..."));
+		mensajes.put(CodigoMensaje.M00020.getIdentificador(), new Mensaje(CodigoMensaje.M00020,
+				"..."));
+		mensajes.put(CodigoMensaje.M00021.getIdentificador(), new Mensaje(CodigoMensaje.M00021,
+				"..."));
+		mensajes.put(CodigoMensaje.M00022.getIdentificador(), new Mensaje(CodigoMensaje.M00022,
+				"..."));
+		mensajes.put(CodigoMensaje.M00023.getIdentificador(), new Mensaje(CodigoMensaje.M00023,
+				"..."));
+	
 	}
 
 	@Override
