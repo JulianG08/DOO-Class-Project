@@ -1,7 +1,0 @@
-package co.edu.uco.tiendachepito.data.dao.sql.azuresql;
-
-import co.edu.uco.tiendachepito.data.dao.CiudadDAO;
-
-public final class CiudadAzureSqlDAO implements CiudadDAO{
-
-}
