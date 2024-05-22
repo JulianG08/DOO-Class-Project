@@ -1,7 +1,0 @@
-package co.edu.uco.tiendachepito.entity;
-
-public final class PaisEntity {
-	
-	private int id;
-	private String nombre;
-}
