@@ -1,5 +1,6 @@
 package co.edu.uco.tiendachepito.api.controller;
 
+<<<<<<< Updated upstream
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -7,14 +8,22 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import co.edu.uco.tiendachepito.api.response.pais.PaisResponse;
 
+=======
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+>>>>>>> Stashed changes
 @RestController
 @RequestMapping("/api/v1/paises")
 public class PaisController {
 	
+<<<<<<< Updated upstream
 	@GetMapping("/otro")
 	public List<PaisDTO> listar() {
 		final ConsultarPaisesFachada fachada = new ConsultarPaisesFachadaImpl();
@@ -22,10 +31,20 @@ public class PaisController {
 	}
 	
 	@GetMapping
-	public ResponseEntity<PaisResponse> consultarTodos() {
+	public ResponseEntity<PaisResponse> consultar(@RequestParam(required = false, defaultValue = "0") String id, @RequestParam(required = false, defaultValue = "") String nombre) {
 		PaisResponse paisResponse = PaisResponse.build(null);
 		HttpStatus httpStatusResponse; = HttpStatus.OK;
+		int idFilter = 0;
+		
 		try {
+			idFilter = Integer.valueOf(id);
+		} catch (Exception exception) {
+			System.out.println("Por defecto quedará en 0");
+			idFilter = 0;
+		}
+		
+		try {
+			final var paisDtoFilter = PaisDTO.build().setId(idFilter).setNombre(nombre);
 			final ConsultarPaisesFachada fachada = new ConsultarPaisesFachadaImpl();
 			paisResponse.setDatos(fachada.execute(PaisDTO.build()));
 			paisResponse.getMensajes().add("Países consutados exitosamente");
@@ -106,4 +125,10 @@ public class PaisController {
 		return new ResponseEntity<>(paisResponse, httpStatusReponse);
 	}
 		
+=======
+	@GetMapping
+	public String saludad() {
+		return "Hola Mundo!!!";
+	}
+>>>>>>> Stashed changes
 }
