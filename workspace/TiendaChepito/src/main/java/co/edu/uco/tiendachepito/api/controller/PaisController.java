@@ -1,6 +1,7 @@
 package co.edu.uco.tiendachepito.api.controller;
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,15 +15,21 @@ import org.springframework.web.bind.annotation.RestController;
 import co.edu.uco.tiendachepito.api.response.pais.PaisResponse;
 
 =======
+=======
+>>>>>>> Stashed changes
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 @RestController
 @RequestMapping("/api/v1/paises")
 public class PaisController {
 	
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	@GetMapping("/otro")
 	public List<PaisDTO> listar() {
@@ -126,9 +133,14 @@ public class PaisController {
 	}
 		
 =======
+=======
+>>>>>>> Stashed changes
 	@GetMapping
 	public String saludad() {
 		return "Hola Mundo!!!";
 	}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }
