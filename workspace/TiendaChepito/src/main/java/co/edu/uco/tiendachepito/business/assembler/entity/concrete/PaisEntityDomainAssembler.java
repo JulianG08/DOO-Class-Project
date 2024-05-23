@@ -18,4 +18,12 @@ public class PaisEntityDomainAssembler implements EntityDomainAssembler<PaisDoma
 		var paisDomainTmp = ObjectHelper.getObjectHelper().getDefault(dominio, PaisDomain.crear());
 		return PaisEntity.build(paisDomainTmp.getId(), paisDomainTmp.getNombre());
 	}
+	
+	@Override
+	public final List<PaisDomain> ensamblarListaDominios(final List<PaisEntity> listaEntidades) {
+		var listaEntidadesTmp =  ObjectHelper.getObjectHelper().getDefault(listaEntidades, new);
+		var resultados = new ArrayList<PaisDomain>();
+		
+		for (PaisEntity paisEntity : listaEntidadesTmp)
+	}
 }
