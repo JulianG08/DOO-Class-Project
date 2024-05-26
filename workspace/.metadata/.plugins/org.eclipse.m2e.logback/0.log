@@ -3084,3 +3084,4 @@ java.lang.reflect.InaccessibleObjectException: Unable to make public void sun.ni
 2024-05-22 20:20:11,125 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\julia\Documents\GitHub\DOO-Class-Project\workspace\TiendaChepito\src\test\resources
 =======
 >>>>>>> Stashed changes
+2024-05-25 20:58:38,504 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
